@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <h1 class="new2"><center>Contact us</center></h1>
+        </div>
+        <div id="errorMessage"></div>
+        <form action=" " id="form" onsubmit="return validate()">
+            <fieldset>
+            <br>
+            <legend>Fill in your details</legend>
+            <legend for="name">Name:</legend>
+            <input type="text" name="name" placeholder="your name" id="name">
+            <br>
+            <legend for="email">Email:</legend>
+            <input type="email" name="email" placeholder="email" id="email">
+            <br>
+            <legend for="title">Title:</legend>
+            <input type="text" name="title" placeholder="Title" id="title">
+            <br>
+            <legend for="message"> Message:</legend>
+            <textarea id="message" rows="3" cols="30" ></textarea>
+            <br>
+            <input type="submit" name="submitBtn" value="submit" class="submitBtn">
+        </fieldset>
+        </form>
+    </header>
+</body>
+</html>
