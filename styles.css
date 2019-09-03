@@ -1,0 +1,61 @@
+body{
+    /* background:yellow; */
+    font-family:'Times New Roman', Times, serif;
+}
+h3
+{
+    color:red;
+    /* background-color:black; */
+    border-bottom:2px solid black;
+    /* border-radius:5px; */
+    margin:auto;
+     padding:3px;
+    font-size:150%;
+}
+a:hover
+{
+    color:purple;
+}
+a:active{
+    color:yelloww;
+}
+a:visited
+{
+    color:green;
+}
+.new
+{
+    color:rgb(38, 194, 142);
+    display:block;
+}
+.new1
+{
+    font-size:100%;
+}
+a
+{
+    list-style-type: none;
+    text-decoration:none;
+}
+.new2
+{
+    border:40px solid black;
+    background-color:yellow;
+    padding:30px 40px;
+}
+form{
+    background-color:chocolate;
+}
+legend
+{
+    font-size:30px;
+}
+.submitBtn
+{
+    background-color:green;
+    padding:10px;
+    margin:auto;
+    border-radius:5px;
+    font-size:20px;
+
+}
